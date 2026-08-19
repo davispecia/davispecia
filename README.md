@@ -1,47 +1,120 @@
 # Olá, eu sou o Davi Specia 👋
 
-CTO, analista de dados e desenvolvedor de IA. Fundador da Aluga.ix, focado em transformar dados em produtos digitais e decisões melhores.
+**Machine Learning & Data Science | Bacharelado em Inteligência Artificial**
 
-- 📍 Toledo, Paraná — Brasil  
-- 🎓 Bacharelado em Inteligência Artificial | 3º Período
-- 💻 Founder & CTO Aluga.ix (alugaix.com.br)
-- 📧 davi.specia@gmail.com  
+Desenvolvo projetos de Machine Learning voltados a problemas reais, com interesse especial em **Computer Vision, Deep Learning, modelos preditivos e ML aplicado a sistemas físicos**.
 
-## O que faço
-- Arquitetura e modelagem de bancos de dados (SQL, normalização, pipelines de dados)
-- ETL/ELT e análise de dados com Python, Pandas e NumPy
-- Dashboards e KPIs com Power BI e Dash
-- Machine Learning clássico e Deep Learning (PyTorch, TensorFlow/Keras)
-- Desenvolvimento backend em Python e Dart; frontend com Flutter, HTML/CSS/JS
-- Liderança técnica, definição de roadmap e processos ágeis (Scrum)
+Atualmente curso Bacharelado em Inteligência Artificial e busco oportunidades como **Machine Learning Engineer Jr. / Data Scientist Jr.**
 
-## Projetos em destaque
-- **Peso na Granja** — app completo para controle de suínos com dashboards e modelo de IA
-- **Voxia** — solução assistiva integrando hardware e IA para pessoas com deficiência visual
-- **Dashboard Alugaix (Dash)** — KPIs e relatórios automatizados para operação interna
-- **E-Mote** — totem físico + dashboards para monitorar bem-estar emocional de estudantes
-- **GASense** — monitoramento IoT de gases com detecção preditiva de anomalias
+📍 Toledo, Paraná — Brasil
+🎓 Bacharelado em Inteligência Artificial — em andamento
+💻 Python · Machine Learning · Deep Learning · Data Science
+📧 [davi.specia@gmail.com](mailto:davi.specia@gmail.com)
 
-## Tecnologias que mais uso
-`Python` · `Pandas` · `NumPy` · `SQL` · `Power BI` · `Dash` · `PyTorch` · `TensorFlow` · `Keras` · `Flutter (Dart)` · `HTML/CSS/JS`
+## 🧠 Machine Learning
 
-##  Painel de Acesso & Atividade
-![Profile views](https://komarev.com/ghpvc/?username=davidogral&color=0e75b6&style=flat)
+Trabalho principalmente com:
+
+* Machine Learning supervisionado e não supervisionado
+* Deep Learning com PyTorch e TensorFlow
+* Computer Vision
+* Séries temporais
+* Feature Engineering e preparação de dados
+* Avaliação e comparação de modelos
+* Integração de modelos de ML com aplicações
+* SQL e pipelines de dados
+
+## 🔬 Projetos em destaque
+
+### ⚡ Physics-Guided Neural Network — Itaipu
+
+Desenvolvimento de uma **Physics-Guided Neural Network (PGNN)** para estimar a geração de energia hidrelétrica da Usina de Itaipu, incorporando conhecimento físico do problema ao processo de aprendizado.
+
+`Python` `PyTorch` `Neural Networks` `Time Series` `Physics-Guided ML`
+
+---
+
+### 🩻 Classificação de Mamografias
+
+Projeto de pesquisa em **Computer Vision aplicada à saúde**, investigando modelos de Deep Learning para classificação de mamografias entre exames suspeitos e não suspeitos.
+
+`Python` `PyTorch` `Computer Vision` `Deep Learning` `DICOM`
+
+---
+
+### 🐖 Estimativa de Peso de Suínos por Visão Computacional
+
+Sistema para estimativa de peso de suínos a partir de imagens, explorando técnicas de **Computer Vision e Machine Learning** aplicadas ao ambiente de granjas.
+
+O projeto resultou em publicação científica na **RECIMA21**.
+
+`Python` `Computer Vision` `Machine Learning` `Data Analysis`
+
+---
+
+### 💳 Credit Risk Machine Learning
+
+Modelagem de risco de crédito utilizando diferentes algoritmos de Machine Learning e comparação de desempenho entre modelos.
+
+Modelos explorados:
+
+* Random Forest
+* XGBoost
+* Support Vector Machine (SVM)
+
+`Python` `Scikit-learn` `XGBoost` `Pandas` `Classification`
+
+---
+
+### 📊 Data & Analytics — Alugaix
+
+Desenvolvimento de soluções internas para análise da operação da Alugaix, incluindo dashboards, indicadores de desempenho e automação de relatórios.
+
+`Python` `Pandas` `SQL` `Dash` `Data Visualization`
+
+## 🛠️ Stack
+
+**Machine Learning**
+
+`PyTorch` · `TensorFlow/Keras` · `Scikit-learn` · `XGBoost`
+
+**Data**
+
+`Python` · `Pandas` · `NumPy` · `SQL`
+
+**Visualization**
+
+`Power BI` · `Dash` · `Matplotlib`
+
+**Software**
+
+`Git` · `GitHub` · `Docker` · `FastAPI` · `Flutter/Dart`
+
+## 🎯 Atualmente estudando
+
+Estou aprofundando meus conhecimentos em:
+
+* Machine Learning Engineering
+* MLOps
+* Model deployment
+* Computer Vision
+* Deep Learning
+* Estatística aplicada a Machine Learning
+
+Meu objetivo é trabalhar no ciclo completo de Machine Learning:
+
+**Data → Training → Evaluation → Deployment → Monitoring**
+
+## 📊 GitHub
 
 <p align="left">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=davidogral&theme=transparent&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&card_width=340" alt="GitHub Streak" height="170">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=davidogral&theme=github_dark" alt="GitHub Stats Overview" height="170">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=davidogral&theme=github_dark" alt="Linguagens mais usadas por commits" height="170">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=davidogral&theme=github_dark" alt="GitHub Stats" height="170">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=davidogral&theme=github_dark" alt="Most Used Languages" height="170">
 </p>
 
-## Como contribuir ou falar comigo
-Se tiver ideias, oportunidades ou quiser trocar uma ideia sobre dados, IA e produtos, me manda um e-mail em **davi.specia@gmail.com**.
+## 📫 Contato
 
----
-<div align="center">
+Estou aberto a oportunidades em **Machine Learning Engineering, Data Science e Applied ML**, especialmente posições júnior e projetos nos quais possa trabalhar diretamente com desenvolvimento, treinamento e aplicação de modelos.
 
-![Frase que muda sozinha](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1200&color=0088cc&center=true&width=520&lines=A+inova%C3%A7%C3%A3o+%C3%A9+um+esporte+de+equipe;Dados+guiam%2C+produto+decide;Automatize+o+%C3%B3bvio%2C+inove+no+resto;Pequenos+deploys%2C+grandes+impactos)
-
-<!-- Este README foi preparado para o repositório de perfil `davidogral/davidogral` no GitHub. -->
-
-</div>
+📧 **[davi.specia@gmail.com](mailto:davi.specia@gmail.com)**
