@@ -28,7 +28,7 @@ sem restrição teve o menor erro de dados e o maior resíduo físico: MSE
 menor não significa modelo fisicamente melhor. Aceito no **Latinoware**.
 `Rust` `Physics-Guided ML`
 
-**[Estimativa de peso de suínos]** — visão computacional em condição
+**Estimativa de peso de suínos** — visão computacional em condição
 de granja, erro médio de <valor>. Publicado na RECIMA21.
 `Python` `Computer Vision`
 
