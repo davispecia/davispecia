@@ -1,58 +1,36 @@
 # Davi Specia
 
-**Cientista de dados** — NLP, recuperação de informação e modelos em
-produção. Python.
+Analista de dados, com foco em engenharia de dados e IA. Python, SQL, Databricks e Power BI.
 
-Bacharelando em Inteligência Artificial.
+Bacharelando em Inteligência Artificial na Faculdade Donaduzzi (Biopark). Moro em Palotina, PR, e tenho disponibilidade imediata.
 
-📍 Toledo, PR · 📧 davi.specia@gmail.com · [LinkedIn](https://www.linkedin.com/in/davi-specia-7b60962a2/)
-
----
-
-## Projetos
-
-**[Cinerd](https://cinerd.davispecia.com.br)** — busca semântica de filmes,
-no ar. Recuperação híbrida sobre 22.029 títulos: BM25 + embeddings
-multilíngues (e5, 1024 dim) + sinal temático, fundidos por z-score, com
-reranking por cross-encoder. nDCG@10 de <valor> contra <valor> do baseline.
-Recomendação por SVD (RMSE 0,80 em ~2,9M avaliações) fundida por RRF com
-perfil multi-interesse.
-→ [Números de ablação, latência e protocolo de avaliação](https://cinerd.davispecia.com.br/engineering)
-(aba Engenharia, com p99 ao vivo do tráfego real)
-`Python` `sentence-transformers` `ONNX` `DVC` `Prometheus` `Docker`
-
-**[PGNN para geração hidrelétrica — Itaipu](https://github.com/davidogral/PGNN_itaipu)** — rede guiada por
-física escrita do zero em Rust, com retropropagação e Adam manuais, sobre
-séries do ONS (2015–2024). A ablação do termo físico mostrou que o modelo
-sem restrição teve o menor erro de dados e o maior resíduo físico: MSE
-menor não significa modelo fisicamente melhor. Aceito no **Latinoware**.
-`Rust` `Physics-Guided ML`
-
-**Estimativa de peso de suínos** — visão computacional em condição
-de granja, erro médio de <valor>. Publicado na RECIMA21.
-`Python` `Computer Vision`
-
----
-
-## Publicações
-
-- **Latinoware** — Physics-Guided Neural Network para geração hidrelétrica.
-  Aceito para publicação.
-- **RECIMA21** — Estimativa de peso de suínos por visão computacional.
-  [Artigo](https://recima21.com.br/recima21/pt_BR/article/view/8496)
-
----
+[Portfólio](https://davispecia.com.br/?utm_source=github&utm_medium=perfil&utm_campaign=readme) · [LinkedIn](https://www.linkedin.com/in/davispecia/) · davi.specia@gmail.com
 
 ## Experiência
 
-**Alugaix** — sócio-fundador e CTO desde 2024. Camada analítica de uma
-operação de locação por temporada: ingestão via API de PMS, indicadores de
-ocupação, ADR e RevPAR, e reconstrução de receita após migração de sistema.
+**Alugaix, sócio-fundador e analista de dados (out/2023 a nov/2026).** Fui responsável pela área de dados de uma gestora de 60 imóveis por temporada em Toledo e região. Construí a camada analítica (ingestão via API do PMS, indicadores de ocupação, ADR e RevPAR), os painéis de BI da empresa e o Compacta, ferramenta interna que monta anúncios a partir das fotos e dos documentos do imóvel.
 
----
+## Projetos
 
-## Stack
+**[Cinerd](https://cinerd.davispecia.com.br)**: busca de filmes por descrição, em produção. Catálogo de 22.029 títulos, busca híbrida com 8 sinais (BM25, embeddings multilíngues e5-large, nome de personagem, popularidade) normalizados por z-score. No conjunto de teste, nDCG@10 de 0,829 contra 0,360 do BM25 sozinho. Testei um cross-encoder e tirei da produção, porque o ganho ficou dentro do ruído e a latência aumentou cerca de 40 vezes. Deploy na Oracle Cloud, com DVC, CI e métricas em Prometheus.
+`Python` `sentence-transformers` `ONNX Runtime` `DVC` `Docker` `Prometheus`
 
-Python, Rust, SQL · pandas, scikit-learn, XGBoost, PyTorch ·
-sentence-transformers, BM25, cross-encoder · DVC, MLflow, Docker,
-GitHub Actions, Prometheus · FastAPI, Power BI
+**[Pipeline de análise de crédito](https://github.com/davispecia/pipeline-analise-credito)**: arquitetura medalhão no Databricks, job serverless de 6 tarefas com Databricks Asset Bundles, tabelas Delta no Unity Catalog, carga incremental com MERGE INTO e quality gate com 20 regras. A mesma lógica roda localmente com PostgreSQL e Airflow, com mais de 40 testes.
+`Databricks` `PySpark` `Delta Lake` `Airflow` `PostgreSQL`
+
+**[Rede neural guiada por física para Itaipu](https://github.com/davispecia/PGNN_itaipu)**: implementada do zero em Rust, com retropropagação e Adam escritos à mão, sobre dados do ONS de 2015 a 2024. Na ablação, o modelo sem o termo físico errou menos nos dados, mas teve resíduo físico cerca de 33 vezes maior. O cenário operacional chegou a RMSE de 508 MWmed (R² de 0,91) e superou a persistência em todos os anos da validação de 2020 a 2024.
+`Rust` `Physics-Guided ML`
+
+## Publicações
+
+- Modelagem da geração hidrelétrica de Itaipu via redes neurais guiadas por física em Rust. Latin.Science 2026, Latinoware (artigo aprovado).
+- Estimativa de peso de suínos a partir de imagens RGB utilizando redes neurais convolucionais. [RECIMA21, 2026](https://recima21.com.br/recima21/pt_BR/article/view/8496).
+
+## Prêmios
+
+- 1º lugar no Hackathon da Semana Acadêmica de Tecnologia da Faculdade Donaduzzi, com o MobIA (mai/2026).
+- 3º lugar no Hackatour Cataratas, como líder e analista de dados do TripData (abr/2026).
+
+## Ferramentas
+
+Python, SQL, Rust · pandas, scikit-learn, XGBoost, PyTorch · Databricks, PySpark, Airflow, DVC, MLflow · FastAPI, Docker, GitHub Actions · Power BI, Excel
