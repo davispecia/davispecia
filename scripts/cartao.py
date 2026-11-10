@@ -1,7 +1,7 @@
-"""Gera o cartão de contribuições do perfil (SVG claro e escuro).
+"""Gera o cabeçalho e o cartão de contribuições do perfil (SVG claro e escuro).
 
 Lê o calendário de contribuições pela API GraphQL do GitHub e escreve
-dist/cartao.svg e dist/cartao-escuro.svg. Só usa a biblioteca padrão.
+dist/cartao*.svg e dist/cabecalho*.svg. Só usa a biblioteca padrão.
 Uso: GITHUB_TOKEN=... python scripts/cartao.py [usuario]
 """
 import json
@@ -78,8 +78,8 @@ def esc(t):
 def svg(cores, total, ativos, corrente, maior, meses, dia_forte, hoje):
     W, H = 840, 346
     fonte = "-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif"
-    p = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" '
-         f'role="img" aria-labelledby="t d" font-family="{fonte}">',
+    p = [(f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" '
+         f'role="img" aria-labelledby="t d" font-family="{fonte}">'),
          f'<title id="t">Contribuições de {USUARIO} no GitHub</title>',
          f'<desc id="d">{num(total)} contribuições nos últimos 12 meses, {ativos} dias ativos, '
          f'maior sequência de {dias_txt(maior)}. Por mês: '
@@ -128,6 +128,34 @@ def svg(cores, total, ativos, corrente, maior, meses, dia_forte, hoje):
     return "\n".join(p)
 
 
+MARCA = ('<rect width="48" height="48" rx="12" fill="#0F172A"/>'
+         '<path d="m8 17 16-9 16 9-16 9Z" fill="#3B82F6"/>'
+         '<path d="m8 25 16 9 16-9M8 33l16 9 16-9" fill="none" stroke="#22D3EE" stroke-width="3.5" '
+         'stroke-linecap="round" stroke-linejoin="round"/>')
+
+
+def cabecalho(cores, verde):
+    W, H = 840, 150
+    fonte = "-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif"
+    fatos = ["Ex-sócio-fundador da Alugaix", "2 artigos científicos", "2 prêmios em hackathons"]
+    p = [(f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" '
+         f'role="img" aria-labelledby="t" font-family="{fonte}">'),
+         '<title id="t">Davi Specia, analista de dados, Palotina, PR. Disponível para contratação.</title>',
+         f'<rect x="0.5" y="0.5" width="{W-1}" height="{H-1}" rx="8" fill="{cores["fundo"]}" stroke="{cores["borda"]}"/>',
+         f'<g transform="translate(24 43) scale(1.333)">{MARCA}</g>',
+         f'<text x="108" y="62" font-size="30" font-weight="600" fill="{cores["texto"]}">Davi Specia</text>',
+         f'<text x="108" y="88" font-size="16" fill="{cores["suave"]}">Analista de dados · Engenharia de dados e IA</text>',
+         f'<circle cx="113" cy="113" r="5" fill="{verde}"/>',
+         f'<text x="125" y="118" font-size="14" fill="{cores["texto"]}">Disponível para contratação · Palotina, PR</text>',
+         f'<line x1="540" x2="540" y1="34" y2="{H-34}" stroke="{cores["borda"]}"/>']
+    for i, f in enumerate(fatos):
+        y = 58 + i * 26
+        p.append(f'<rect x="566" y="{y-9}" width="8" height="8" rx="2" fill="{cores["barra"]}"/>')
+        p.append(f'<text x="582" y="{y}" font-size="13.5" fill="{cores["suave"]}">{esc(f)}</text>')
+    p.append("</svg>")
+    return "\n".join(p)
+
+
 def main():
     dias, total = buscar_dias()
     corrente, maior = sequencias(dias)
@@ -141,6 +169,8 @@ def main():
     saida = Path("dist")
     saida.mkdir(exist_ok=True)
     for nome, cores in TEMAS.items():
+        verde = "#1a7f37" if nome == "cartao" else "#3fb950"
+        (saida / f"{nome.replace('cartao', 'cabecalho')}.svg").write_text(cabecalho(cores, verde), encoding="utf-8")
         (saida / f"{nome}.svg").write_text(svg(cores, total, ativos, corrente, maior, meses, dia_forte, hoje), encoding="utf-8")
     print(f"{total} contribuições, {ativos} dias ativos, sequência {corrente}/{maior}, {len(meses)} meses")
 
