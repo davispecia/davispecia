@@ -4,7 +4,16 @@ Analista de dados, com foco em engenharia de dados e IA. Python, SQL, Databricks
 
 Bacharelando em Inteligência Artificial na Faculdade Donaduzzi (Biopark). Moro em Palotina, PR, e tenho disponibilidade imediata.
 
-[Portfólio](https://davispecia.com.br/?utm_source=github&utm_medium=perfil&utm_campaign=readme) · [LinkedIn](https://www.linkedin.com/in/davispecia/) · davi.specia@gmail.com
+<a href="https://davispecia.com.br/?utm_source=github&utm_medium=perfil&utm_campaign=readme"><img alt="Portfólio · davispecia.com.br" src="https://img.shields.io/badge/Portf%C3%B3lio%20%C2%B7%20davispecia.com.br-2a78d6?style=flat-square"></a>
+<a href="https://www.linkedin.com/in/davispecia/"><img alt="LinkedIn · davispecia" src="https://img.shields.io/badge/LinkedIn%20%C2%B7%20davispecia-0A66C2?style=flat-square"></a>
+<a href="mailto:davi.specia@gmail.com"><img alt="davi.specia@gmail.com" src="https://img.shields.io/badge/davi.specia%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white"></a>
+
+<img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"> <img alt="SQL" src="https://img.shields.io/badge/SQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"> <img alt="Rust" src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white"> <img alt="Databricks" src="https://img.shields.io/badge/Databricks-FF3621?style=flat-square&logo=databricks&logoColor=white"> <img alt="PySpark" src="https://img.shields.io/badge/PySpark-E25A1C?style=flat-square&logo=apachespark&logoColor=white"> <img alt="Airflow" src="https://img.shields.io/badge/Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white"> <img alt="Power BI" src="https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square"> <img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"> <img alt="scikit-learn" src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white"> <img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"> <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"> <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/davispecia/davispecia/output/cartao-escuro.svg">
+  <img alt="Contribuições no GitHub nos últimos 12 meses, por mês" src="https://raw.githubusercontent.com/davispecia/davispecia/output/cartao.svg" width="100%">
+</picture>
 
 ## Experiência
 
@@ -31,6 +40,9 @@ Bacharelando em Inteligência Artificial na Faculdade Donaduzzi (Biopark). Moro 
 - 1º lugar no Hackathon da Semana Acadêmica de Tecnologia da Faculdade Donaduzzi, com o MobIA (mai/2026).
 - 3º lugar no Hackatour Cataratas, como líder e analista de dados do TripData (abr/2026).
 
-## Ferramentas
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/davispecia/davispecia/output/cobrinha-escura.svg">
+  <img alt="Cobrinha percorrendo o gráfico de contribuições" src="https://raw.githubusercontent.com/davispecia/davispecia/output/cobrinha.svg" width="100%">
+</picture>
 
-Python, SQL, Rust · pandas, scikit-learn, XGBoost, PyTorch · Databricks, PySpark, Airflow, DVC, MLflow · FastAPI, Docker, GitHub Actions · Power BI, Excel
+<sub>O cartão e a cobrinha são atualizados todo dia por um workflow deste repositório (<code>scripts/cartao.py</code>), a partir da API do GitHub.</sub>
