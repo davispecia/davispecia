@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="346" viewBox="0 0 840 346" role="img" aria-labelledby="t d" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif">
+<title id="t">Contribuições de davispecia no GitHub</title>
+<desc id="d">949 contribuições nos últimos 12 meses, 73 dias ativos, maior sequência de 5 dias. Por mês: dez/2025: 2, jan/2026: 2, fev/2026: 1, mar/2026: 20, abr/2026: 0, mai/2026: 3, jun/2026: 11, jul/2026: 3, ago/2026: 60, set/2026: 230, out/2026: 488, nov/2026: 115.</desc>
+<rect x="0.5" y="0.5" width="839" height="345" rx="8" fill="#0d1117" stroke="#30363d"/>
+<text x="24" y="44" font-size="13" fill="#9198a1">Contribuições em 12 meses</text>
+<text x="24" y="76" font-size="26" font-weight="600" fill="#f0f6fc">949</text>
+<text x="222" y="44" font-size="13" fill="#9198a1">Dias com contribuição</text>
+<text x="222" y="76" font-size="26" font-weight="600" fill="#f0f6fc">73</text>
+<text x="420" y="44" font-size="13" fill="#9198a1">Mês mais ativo</text>
+<text x="420" y="76" font-size="26" font-weight="600" fill="#f0f6fc">out/26 · 488</text>
+<text x="618" y="44" font-size="13" fill="#9198a1">Média por dia ativo</text>
+<text x="618" y="76" font-size="26" font-weight="600" fill="#f0f6fc">13,0</text>
+<text x="24" y="124" font-size="14" font-weight="600" fill="#f0f6fc">Contribuições por mês</text>
+<line x1="24" x2="816" y1="215.0" y2="215.0" stroke="#21262d"/>
+<line x1="24" x2="816" y1="150.0" y2="150.0" stroke="#21262d"/>
+<line x1="24" x2="816" y1="280" y2="280" stroke="#30363d"/>
+<path d="M36.5,280 V280.0 Q36.5,279.5 37.1,279.5 H76.9 Q77.5,279.5 77.5,280.0 V280 Z" fill="#3987e5"><title>dez/2025: 2</title></path>
+<text x="57.0" y="298" font-size="12" text-anchor="middle" fill="#9198a1">dez/25</text>
+<path d="M102.5,280 V280.0 Q102.5,279.5 103.1,279.5 H142.9 Q143.5,279.5 143.5,280.0 V280 Z" fill="#3987e5"><title>jan/2026: 2</title></path>
+<text x="123.0" y="298" font-size="12" text-anchor="middle" fill="#9198a1">jan/26</text>
+<path d="M168.5,280 V280.0 Q168.5,279.7 168.8,279.7 H209.2 Q209.5,279.7 209.5,280.0 V280 Z" fill="#3987e5"><title>fev/2026: 1</title></path>
+<text x="189.0" y="298" font-size="12" text-anchor="middle" fill="#9198a1">fev</text>
+<path d="M234.5,280 V278.7 Q234.5,274.7 238.5,274.7 H271.5 Q275.5,274.7 275.5,278.7 V280 Z" fill="#3987e5"><title>mar/2026: 20</title></path>
+<text x="255.0" y="298" font-size="12" text-anchor="middle" fill="#9198a1">mar</text>
+<text x="321.0" y="298" font-size="12" text-anchor="middle" fill="#9198a1">abr</text>
+<path d="M366.5,280 V280.0 Q366.5,279.2 367.3,279.2 H406.7 Q407.5,279.2 407.5,280.0 V280 Z" fill="#3987e5"><title>mai/2026: 3</title></path>
+<text x="387.0" y="298" font-size="12" text-anchor="middle" fill="#9198a1">mai</text>
+<path d="M432.5,280 V280.0 Q432.5,277.1 435.5,277.1 H470.5 Q473.5,277.1 473.5,280.0 V280 Z" fill="#3987e5"><title>jun/2026: 11</title></path>
+<text x="453.0" y="298" font-size="12" text-anchor="middle" fill="#9198a1">jun</text>
+<path d="M498.5,280 V280.0 Q498.5,279.2 499.3,279.2 H538.7 Q539.5,279.2 539.5,280.0 V280 Z" fill="#3987e5"><title>jul/2026: 3</title></path>
+<text x="519.0" y="298" font-size="12" text-anchor="middle" fill="#9198a1">jul</text>
+<path d="M564.5,280 V268.0 Q564.5,264.0 568.5,264.0 H601.5 Q605.5,264.0 605.5,268.0 V280 Z" fill="#3987e5"><title>ago/2026: 60</title></path>
+<text x="585.0" y="298" font-size="12" text-anchor="middle" fill="#9198a1">ago</text>
+<path d="M630.5,280 V222.7 Q630.5,218.7 634.5,218.7 H667.5 Q671.5,218.7 671.5,222.7 V280 Z" fill="#3987e5"><title>set/2026: 230</title></path>
+<text x="651.0" y="298" font-size="12" text-anchor="middle" fill="#9198a1">set</text>
+<path d="M696.5,280 V154.0 Q696.5,150.0 700.5,150.0 H733.5 Q737.5,150.0 737.5,154.0 V280 Z" fill="#3987e5"><title>out/2026: 488</title></path>
+<text x="717.0" y="298" font-size="12" text-anchor="middle" fill="#9198a1">out</text>
+<text x="717.0" y="144.0" font-size="12" font-weight="600" text-anchor="middle" fill="#f0f6fc">488</text>
+<path d="M762.5,280 V253.4 Q762.5,249.4 766.5,249.4 H799.5 Q803.5,249.4 803.5,253.4 V280 Z" fill="#3987e5"><title>nov/2026: 115</title></path>
+<text x="783.0" y="298" font-size="12" text-anchor="middle" fill="#9198a1">nov</text>
+<text x="783.0" y="243.4" font-size="12" font-weight="600" text-anchor="middle" fill="#f0f6fc">115</text>
+<text x="24" y="328" font-size="11.5" fill="#9198a1">Dia mais ativo: quinta. Maior sequência: 5 dias. Mês atual até 14/11. Inclui contribuições em repositórios privados. Atualizado em 14/11/2026.</text>
+</svg>
