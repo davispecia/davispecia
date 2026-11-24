@@ -1,13 +1,13 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/davispecia/davispecia/output/cabecalho-escuro.svg">
-  <img alt="Davi Specia, analista de dados, engenharia de dados e IA. Disponível para contratação, Palotina, PR." src="https://raw.githubusercontent.com/davispecia/davispecia/output/cabecalho.svg" width="100%">
+  <img alt="Davi Specia, engenheiro de IA na MCL Peças Agrícolas, Palotina, PR." src="https://raw.githubusercontent.com/davispecia/davispecia/output/cabecalho.svg" width="100%">
 </picture>
 
 <a href="https://davispecia.com.br/?utm_source=github&utm_medium=perfil&utm_campaign=readme"><img alt="Portfólio · davispecia.com.br" src="https://img.shields.io/badge/Portf%C3%B3lio%20%C2%B7%20davispecia.com.br-2a78d6?style=flat-square"></a>
 <a href="https://www.linkedin.com/in/davispecia/"><img alt="LinkedIn · davispecia" src="https://img.shields.io/badge/LinkedIn%20%C2%B7%20davispecia-0A66C2?style=flat-square"></a>
 <a href="mailto:davi.specia@gmail.com"><img alt="davi.specia@gmail.com" src="https://img.shields.io/badge/davi.specia%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white"></a>
 
-Bacharelando em Inteligência Artificial na Faculdade Donaduzzi (Biopark). Trabalho com Python, SQL, Databricks e Power BI, e tenho disponibilidade imediata.
+Engenheiro de IA na [MCL Peças Agrícolas](https://www.mcl.ind.br), em Palotina, PR, onde levo os dados do ERP para um data warehouse lido pelo Power BI e desenvolvo um sistema comercial com IA para os vendedores. Bacharelando em Inteligência Artificial na Faculdade Donaduzzi (Biopark). Trabalho com Python, SQL, Databricks e Power BI.
 
 ## Projetos
 
@@ -32,6 +32,8 @@ Bacharelando em Inteligência Artificial na Faculdade Donaduzzi (Biopark). Traba
 </details>
 
 ## Experiência
+
+**MCL Peças Agrícolas, engenheiro de IA (nov/2026 até hoje).** Construí o pipeline que leva os dados do ERP para um data warehouse dimensional em PostgreSQL, lido pelo Power BI, com checagens de qualidade, registro de cada execução, alertas e deploy automático. Desenvolvo também o sistema comercial com IA dos vendedores, que encontra a peça MCL equivalente a partir da lista do cliente, sugere estoque e preço e responde perguntas consultando o ERP.
 
 **Alugaix, sócio-fundador e analista de dados (out/2023 a nov/2026).** Fui responsável pela área de dados de uma gestora de 60 imóveis por temporada em Toledo e região. Construí a camada analítica (ingestão via API do PMS, indicadores de ocupação, ADR e RevPAR), os painéis de BI da empresa e o Compacta, ferramenta interna que monta anúncios a partir das fotos e dos documentos do imóvel.
 

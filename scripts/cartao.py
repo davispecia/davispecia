@@ -140,13 +140,13 @@ def cabecalho(cores, verde):
     fatos = ["Ex-sócio-fundador da Alugaix", "2 artigos científicos", "2 prêmios em hackathons"]
     p = [(f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" '
          f'role="img" aria-labelledby="t" font-family="{fonte}">'),
-         '<title id="t">Davi Specia, analista de dados, Palotina, PR. Disponível para contratação.</title>',
+         '<title id="t">Davi Specia, engenheiro de IA na MCL Peças Agrícolas, Palotina, PR.</title>',
          f'<rect x="0.5" y="0.5" width="{W-1}" height="{H-1}" rx="8" fill="{cores["fundo"]}" stroke="{cores["borda"]}"/>',
          f'<g transform="translate(24 43) scale(1.333)">{MARCA}</g>',
          f'<text x="108" y="62" font-size="30" font-weight="600" fill="{cores["texto"]}">Davi Specia</text>',
-         f'<text x="108" y="88" font-size="16" fill="{cores["suave"]}">Analista de dados · Engenharia de dados e IA</text>',
+         f'<text x="108" y="88" font-size="16" fill="{cores["suave"]}">Engenheiro de IA · Engenharia de dados e IA</text>',
          f'<circle cx="113" cy="113" r="5" fill="{verde}"/>',
-         f'<text x="125" y="118" font-size="14" fill="{cores["texto"]}">Disponível para contratação · Palotina, PR</text>',
+         f'<text x="125" y="118" font-size="14" fill="{cores["texto"]}">MCL Peças Agrícolas · Palotina, PR</text>',
          f'<line x1="540" x2="540" y1="34" y2="{H-34}" stroke="{cores["borda"]}"/>']
     for i, f in enumerate(fatos):
         y = 58 + i * 26
